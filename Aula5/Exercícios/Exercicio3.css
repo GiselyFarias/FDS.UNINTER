@@ -1,0 +1,20 @@
+.alternada{
+    list-style: upper-alpha;
+    font-size: 30px;
+    color: fuchsia;
+    width: fit-content;
+}
+
+/*ímpar é Odd em inglês*/
+.alternada li:nth-child(odd){
+    background-color: aquamarine;
+}
+
+/*Par em inglês é even*/
+.alternada li:nth-child(even){
+    background-color: rgb(74, 158, 130);
+}
+
+.alternada li:hover{
+    font-weight: bolder;
+}

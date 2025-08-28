@@ -1,0 +1,16 @@
+.imagem{
+    background-image: url(imagem.avif);
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagem:hover{
+    background-position: 0px 50px;
+}
+
+.imagem:active{
+    background-position: 5px 50px;
+}
