@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Testando CSS</title>
+
+    <!--CSS INTERNO-->
+    <style>
+h1{
+   color: brown;
+   font-size: large;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-style: italic;
+   background-color: black;
+}
+
+p{
+    background-color: aqua;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.titulo{
+    font-size: 50px;
+}
+
+#titulooriginal{
+   font-size: 60px;
+   color: aqua;
+}
+
+.central{
+    text-align: center;
+}
+
+.Lista li{
+    color: red;
+    background-color: black;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+    </style>
+</head>
+<body>
+    
+    <h1 class="titulo central" id="titulooriginal">Título muito criativo</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur atque nisi ut, rem, obcaecati dolore officiis quibusdam deleniti odio quo quis vel nihil dolores facilis, velit quam accusamus necessitatibus totam?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, consequatur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sint fugit nulla laboriosam amet nobis ipsam! Nemo mollitia, modi, corporis eaque alias quo doloremque rem culpa quisquam optio perferendis nostrum dignissimos ea? Libero, officia accusantium modi repellendus cupiditate pariatur odit? Aspernatur doloremque cumque asperiores eveniet deserunt facilis ratione porro aut officiis odio maiores, dolores, iusto unde? Quasi exercitationem nostrum consequatur eaque doloribus id perspiciatis ea, error ipsa, architecto iure at inventore quae minus ducimus eum qui veniam a! Inventore neque obcaecati, non eius odio laudantium architecto eos, unde deleniti consectetur libero, amet possimus aliquid? Earum provident ratione necessitatibus nostrum a!</p>
+
+<!--Para modificar o class, utilizamos o "."-->
+<!--E para modificar (em específico) utilizamos o ID e usamos o # no CSS.-->
+<!--1°ID, 2°Class e 3°Genérico-->
+
+<!--h1.titulo, é um exemplo para "Todos os h1 que fazem parte da classe titulo."-->
+
+<!--Podemos ter múltiplas classes, como no exemplo do h1.-->
+
+<br>
+<br>
+
+<h1>Minha lista</h1>
+<ul class="Lista">
+    <!--Ao colocarmos a classe e logo depois (sem vírgula e com espaço) a propriedade que iremos-->
+    <!--alterar, ele mudará apenas aquilo que colocamos (especificamos)-->
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+</ul>
+
+
+
+
+</body>
+</html>
